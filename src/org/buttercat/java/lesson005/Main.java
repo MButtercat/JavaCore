@@ -39,6 +39,13 @@ class Main {
 // Task 4
         System.out.println("\n ------ Task 4 ------ \n");
 
+        System.out.println("Do you remember our big string?");
+        System.out.println("Lets count how many time \"папа\" occurrences in our big text: " + l5.getEntryCount(str, "папа"));
 
+// Task 5
+        System.out.println("\n ------ Task 5 ------ \n");
+
+        System.out.println("Enter a sentence: ");
+        System.out.println(l5.turnWordsBack(new BufferedReader(new InputStreamReader(System.in)).readLine()));
     }
 }
